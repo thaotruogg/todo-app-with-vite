@@ -1,0 +1,12 @@
+.changeTheme {
+	position: fixed;
+	top: 32px;
+	right: 32px;
+	z-index: 1000;
+}
+.btnToggle {
+	border-radius: 999px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

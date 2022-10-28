@@ -1,0 +1,34 @@
+.tasks {
+	margin: 0 auto;
+	max-width: 736px;
+	padding: 81px 16px 54px 16px;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 27px;
+}
+
+.header div:first-child, .header div:last-child {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	color: #646cff;
+	font-weight: 700;
+}
+
+.header div span {
+	background-color: #464646;
+	border-radius: 999px;
+	font-size: 14px;
+	padding: 0 8px;
+	color: #ffffff;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}

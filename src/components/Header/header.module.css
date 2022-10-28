@@ -1,0 +1,46 @@
+.header {
+	background-color: #171010;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	position: relative;
+}
+
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo h2 {
+	margin-top: 12px;
+}
+
+.newTaskForm {
+	position: absolute;
+	height: 54px;
+	width: 100%;
+	max-width: 736px;
+	bottom: -27px;
+	display: flex;
+	gap: 8px;
+	padding: 0 1rem;
+}
+
+.newTaskForm input {
+	flex: 1;
+	height: 100%;
+}
+.newTaskForm button,
+.newTaskForm input {
+	-webkit-box-shadow: 0px 15px 26px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 15px 26px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 15px 26px 0px rgba(0,0,0,0.25);
+}
+
+@media (prefers-color-scheme: light) {
+    .header {
+		background-color: #B2B2B2;
+	}
+}
